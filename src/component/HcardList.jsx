@@ -28,7 +28,7 @@ const HcardList = () => {
       {
         jHcard.length !== 0 ? stateHighlight.map((dd , index) => (
           <Hcard key={index} dd={dd} />
-        )) : <p>Loading one two three...</p>
+        )) : <p>Loading one two three this is teting two...</p>
       }
     </div>
   )
